@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.imgLogo {
+    padding: 30px;
+}
+
+.containerComingSoon {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    place-content: center;
+    align-items: center;
+}
+
+.heroImageMobile {
+    margin-bottom: 25px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.textCopy {
+    font-weight: 300;
+    color: hsl(0, 36%, 70%);
+}
+
+.textCopy1 {
+    font-weight: 600;
+    color: hsl(0, 6%, 24%);
+}
+
+.textCopy2 {
+    margin: 10px 90px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: center;
+    color: hsl(0, 36%, 70%); 
+}
+
+.textStyle {
+    font-size: 40px;
+    letter-spacing: 10px;
+    line-height: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form {
+    position: relative;
+    margin: 25px 90px;
+}
+
+.userEmail {
+    width: 100%;
+    padding: 15px;
+    border-radius: 50px;
+    border: 1px solid hsl(0, 36%, 70%);
+    background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+}
+
+.userEmail::placeholder {
+    color: hsl(0, 36%, 70%);
+}
+
+.userEmail:focus {
+    outline: 1px solid hsl(0, 93%, 68%);
+}
+
+.submit {
+    position: absolute;
+    background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    border-radius: 90px;
+    padding: 12px 25px;
+    margin-top: 1px;
+    margin-left: -59px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-image: url(../img/bg-pattern-desktop.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .containerComingSoon {
+        flex-direction: row-reverse;
+    }
+
+    .heroImageMobile {
+        width: 100%;
+        height: 95vh;
+        margin-top: -97px;
+        margin-bottom: 0;
+    }
+}
