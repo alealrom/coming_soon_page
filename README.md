@@ -28,7 +28,7 @@ The challenge was to build out Cooming Soon Page and get it looking as close to 
 ### Links
 
 - Solution URL: [https://github.com/alealrom/coming_soon_page](https://github.com/alealrom/coming_soon_page)
-- Live Site URL: []()
+- Live Site URL: [https://alealrom.github.io/coming_soon_page/](https://alealrom.github.io/coming_soon_page/)
 
 ## My Porcess
 
