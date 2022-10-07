@@ -10,7 +10,7 @@ body {
 }
 
 .imgLogo {
-    padding: 30px;
+    padding: 25px;
 }
 
 .containerComingSoon {
@@ -22,7 +22,7 @@ body {
 }
 
 .heroImageMobile {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     width: 500px;
     object-fit: cover;
 }
@@ -38,7 +38,7 @@ body {
 }
 
 .textCopy2 {
-    margin: 10px 90px;
+    padding: 10px 85px;
     font-size: 16px;
     font-weight: 300;
     line-height: 25px;
@@ -56,7 +56,7 @@ body {
 
 .form {
     position: relative;
-    margin: 25px 90px;
+    padding: 0px 90px 14px 90px;
 }
 
 .userEmail {
@@ -77,11 +77,32 @@ body {
 
 .submit {
     position: absolute;
-    background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
-    border-radius: 90px;
-    padding: 12px 25px;
-    margin-top: 1px;
     margin-left: -59px;
+    padding: 13px 25px;
+    background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    border-radius: 90px; 
+}
+
+.iconError {
+    position: absolute;
+    margin: -35px 0px 0px 0px;
+    padding-left: 220px;
+}
+
+.textError {
+    margin: 0px;
+    padding-top: 5px;
+    padding-left: 15px;
+    font-size: 14px;
+    color: hsl(0, 93%, 68%);
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
 }
 
 .attribution {
@@ -100,14 +121,59 @@ body {
         background-repeat: no-repeat;
     }
 
+    .imgLogo {
+        padding: 50px 150px;
+    }
+
     .containerComingSoon {
         flex-direction: row-reverse;
     }
 
     .heroImageMobile {
-        width: 100%;
+        width: 610px;
         height: 95vh;
-        margin-top: -97px;
-        margin-bottom: 0;
+        margin-top: -137px;
+        margin-bottom: 0px;
+    }
+
+    .containerCopy {
+        width: 100%;
+        padding-left: 150px;
+    }
+
+    .textCopy2 {
+        width: 560px;
+        padding: 0px;
+        line-height: 35px;
+        font-size: 22px;
+        text-align: left;
+    }
+
+    .textStyle {
+        font-size: 80px;
+        text-align: left;
+    }
+
+    .form {
+        width: 560px;
+        padding: 0px;
+    }
+
+    .userEmail {
+        background: url(../img/bg-pattern-desktop.svg)
+    }
+
+    .submit {
+        margin-left: -83px;
+        padding: 13px 35px;
+    }
+
+    .iconError {
+        padding-left: 430px;
+    }
+
+    .textError {
+        padding-top: 12px;
+        font-size: 16px;
     }
 }

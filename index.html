@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   
   <link rel="stylesheet" type="text/css" href="./css/index.css" />
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
@@ -24,14 +24,16 @@
           <img class="heroImageMobile" src="./img/hero-mobile.jpg" alt="">
         </picture>
       </section>
-      <article>
+      <article class="containerCopy">
         <p class="textCopy textStyle">We're</p>
         <p class="textCopy1 textStyle">coming</p>
         <p class="textCopy1 textStyle">soon</p>
         <p class=" textCopy2">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
-        <form class="form" action="">
+        <form onsubmit="submit()" class="form" action="">
           <input class="userEmail" type="text" id="email" placeholder="Email Address" required>
           <input class="submit" type="image" id="submit" src="./img/icon-arrow.svg">
+          <img class="iconError hidden" src="./img/icon-error.svg" alt="">
+          <p class="textError hidden">Please provide a valid email</p>
         </form>
       </article>
     </main>
@@ -41,5 +43,6 @@
         Coded by <a href="https://alealrom.co/">Alejandra Álvarez Romero</a>.
       </p>
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>
