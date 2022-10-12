@@ -1,7 +1,4 @@
-/*export*/ function validateEmail(inputText) {
-    let userInput = /[-.\w]+@([\w-]+\.)+[\w-]+/g;
-    return userInput.test(inputText)
-}
+import { validateEmail } from "./lib/utils.js"
 
 function submitFormData(event) {
     event.preventDefault();

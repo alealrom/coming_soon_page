@@ -1,6 +1,5 @@
 // const validateEmail = require("../index.js");
-
-import { validateEmail } from "../index";
+import { validateEmail } from "../lib/utils";
 
 describe("should be format email", function(){
     test("should validate an empty text", function(){
