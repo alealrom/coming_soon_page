@@ -1,4 +1,4 @@
-# Frontend Mentor - Comming Soon Page
+# alealrom - Comming Soon Page
 
 This is a solution to Cooming Soon Page on Frontend Mentor.
 
